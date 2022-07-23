@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*===============
+sura-list
+==================*/
+
+
+.sura-main{
+   position: fixed;
+    height:255px;
+    width: 100%;
+    background:  #0d2550;
+}
+
+.sura-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sura-title .sura-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 71px;
+    width: 71px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-top: 21px;
+}
+
+.sura-title .sura-img img{
+    height: 45px;
+    width: 45px;
+}
+
+.sura-title h2{
+    padding-top: 5px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.sura-title p{
+   padding: 5px 0px;
+   color: #01b6ff;
+}
+
+.sura-main .input{
+    display: flex;
+    justify-content: center;
+}
+
+.sura-main input{
+    height: 37px;
+    width: 71% !important;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 9 px;
+    margin-bottom: 15px;
+    padding-left: 15px; 
+    background: #ffffff;
+}
+
+.sura-button{
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+.sura-btn{
+    position: fixed;
+    height: 51px;
+    width: 95%;
+    border-radius: 15px 15px 0px 0px;
+    display:flex;   
+    background: #ffffff;
+    padding: 9px 0px;
+    justify-content: space-evenly;
+}
+
+.sura-btn a{
+    text-decoration: none;
+    border: 2px solid #0d2550;
+    background: #0d2550;
+    padding: 7px 51px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.sura-btn a:hover{
+    background: transparent;
+    color: #2b2a28;
+}
+
+.sura-file-hed{
+    height: auto;
+    width: 100%;
+    background: #0d2550;
+    padding-bottom: 25px;  
+    display: flex;
+    justify-content: center;
+}
+
+.sura-files-list{
+    height: auto;
+    width: 95%;
+    background: #ffffff;
+    padding-top:265px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: px;
+}
+
+.sura-itemm .ittemn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d2550;
+    border-radius: 11px;
+    margin-bottom: 11px;
+ 
+}
+
+.sura-itemm a{
+    text-decoration: none;
+}
+
+.sura-itemm .ittemn .number{
+    height: 31px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 11px 11px;
+    font-size: 15px;
+    border-radius: 50%;
+    background:  #01b6ff ;
+}
+
+.sura-itemm .ittemn p{
+    font-family: 'Poppins', sans-serif;
+    color: #01b6ff ;
+    margin: 11px 11px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ittemn .naame{
+    margin-left: -25px;
+    width: 141px;
+}
+.ittemn .naame h3{
+    font-size: 17px;
+    color: #e9e1e1;
+    font-weight: 600;
+}
+
+.ittemn .naame h5{
+    color: #d1cfc8;
+    font-size: 12px;
+   
+}
+
+
+.sura-itemm .ittemn h2{
+    font-size: 21px;
+    color:#c1adad;
+    text-align: right;
+    font-weight: 600;
+} 
+
+.sura-itemm .ittemn i{
+    font-size: 19px;
+    color:  #01b6ff ;
+    padding-right: 15px;
+}
+
+
+/*====================
+name name
+=====================*/
+
+
+.names-main{
+    height: auto;
+    background: #0d2550;
+}
+
+.pera-item{
+    display: flex;
+    justify-content: center;
+}
+
+.name-title h2{
+    text-align: center;
+    padding-top: 15px;
+    color: #01b6ff;
+}
+
+.name-title p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 131px;
+    width: 95%;
+    background: #0d2550;
+    border-radius: 15px;
+    color: #edf7f8;
+    font-weight: 500;
+    margin-top: 25px;
+    font-size: 17px;
+    padding: 35px 45px;
+    margin-bottom: 25px;
+}
+
+
+.name-title{
+    height: 211px;
+    background: #0e0f28;
+    position: fixed;
+    z-index: 100;
+  
+}
+
+.name-flex{
+    padding-top: 220px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.name-flex .namee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     height: auto;
+     width: 95%;
+     border-radius: 7px;
+     padding: 13px 13px;
+     background: #ffffff;
+     margin-bottom: 11px;
+  
+ }
+
+ .name-flex .namee a{
+    text-decoration: none;
+}
+
+.name-flex .namee a h3{
+    font-size: 17px;
+    color: #1b1919;
+    font-weight: 00;
+}
+
+
+.name-flex .namee a p{
+    font-size: 12px;
+    color: #363232;
+    font-weight: 500;
+    padding-top: 3px;
+    width: 191px;
+}
+
+.name-flex .namee .ppp{
+    font-size: 23px;  
+    font-weight: 600;
+      
+}
+
+.name-flex .namee i{
+    color: #01b6ff;
+}
+
+
+
+
+
